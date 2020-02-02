@@ -1,0 +1,15 @@
+.button-text {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: #6EE0FB;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+.button-text:hover {
+    cursor: pointer;
+    background-color: rgb(143, 234, 255);
+}

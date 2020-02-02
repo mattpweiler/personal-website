@@ -1,7 +1,8 @@
 .navigation-link {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
     text-align: left;
+    padding: 10px;
 }
 .navigation-link:hover {
     color: blue;

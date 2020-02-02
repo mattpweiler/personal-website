@@ -1,0 +1,14 @@
+.form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-input {
+    height: 30px;
+    border: 1px solid #cfcfcf;
+}
+.form-label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+

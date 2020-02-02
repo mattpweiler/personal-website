@@ -13,19 +13,20 @@ const pageLinks = [
 ];
 const NavigationBar = () => {
     return (
-        <div>
-            <Grid container direction="column" alignItems="flex-start">
-                <Grid item xs={3}/>
-                <Grid item xs={3}>
+        <Grid container>
+            <Grid item xs={2} />
+            <Grid container item xs={10} direction="column" justify="space-evenly" spacing={10}>
+                <Grid item xs={1} />
+                <Grid item >
                     <Title text="Matthew Weiler" />
+                    <br />
                     <Subtitle text="Dedicated Software Engineer" />
                 </Grid>
-                <Grid item/>
                 <Grid item>
                     <NavigationLinks menuOptions={pageLinks} />
                 </Grid>
             </Grid>
-        </div>
+        </Grid>
     );
 }
 
