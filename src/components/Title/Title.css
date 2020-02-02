@@ -1,0 +1,10 @@
+.title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+}
+.title:hover {
+    color: blue;
+    cursor: pointer;
+}
