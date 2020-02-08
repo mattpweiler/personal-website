@@ -3,12 +3,13 @@ import './NavigationLink.css';
 
 type Props = {
     text: string;
+    onClick: () => void;
 }
 
 const NavigationLink = (props: Props) => {
-    const { text } = props;
+    const { text, onClick } = props;
     return (
-        <div className="navigation-link">
+        <div className="navigation-link" onClick={onClick}>
             {text}
         </div>
     );

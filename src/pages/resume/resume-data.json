@@ -1,0 +1,37 @@
+{
+    "jobs": {
+        "amfam": {
+            "company": "American Family Insurance",
+            "dates": "Feb 2019 - Present",
+            "title": "Application Development Engineer",
+            "description": "Create secure and reliable web applications and components. Requires strong knowledge of Javascript, React, Redux, interaction with APIs, and AWS design principles. Work on optimizing/creating digital sales applications to maximize customer conversion rates."
+        },
+        "webCourseWorks": {
+            "company": "Web Courseworks, LTD",
+            "dates": "June 2016 - Janurary 2018",
+            "title": "IT Intern",
+            "description": "Worked closely with systems administrators to maintain office software and working environments for 30-40 internal employees. Configured monitoring and notification software in order to make sure that all local servers were running efficiently and to minimize the amount of potential downtime."
+        },
+        "sasTheSquatch": {
+            "company": "SastheSquatch, LLC",
+            "title": "Founder and Published Children's Book Author",
+            "description": "Sold 500+ children's books about a fictional character, SastheSquatch. Utilized social media to market books and apparel to generate sales and over 100,000 views per month. Learned how to manage finances of a small business, create simple websites, and market products online."
+        }
+    },
+    "certifications": {
+        "awsCloud": {
+            "name": "AWS Cloud Practicioner",
+            "desc": "Exam on Overall Knowledge of Cloud Principles and AWS Services",
+            "date": "December 2019"
+        }
+    },
+    "education": {
+        "college": {
+            "name": "University of Wisconsin - Madison",
+            "degree": "Bachelor of Science - Computer Science",
+            "gpa": "3.4", 
+            "areasOfStudy": "Java, CS Theory, Algorithms, C languages"
+        }
+    },
+
+}

@@ -1,0 +1,34 @@
+.root-job {
+    display: block;
+}
+.job-title {
+    font-size: 30px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.company-title {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.job-description {
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 550px) {
+    .job-title {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .company-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .job-description {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}

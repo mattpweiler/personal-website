@@ -1,3 +1,5 @@
 .contact-me {
     /* // padding: 20px; */
+    display: flex;
+    height: 100%;
 }
