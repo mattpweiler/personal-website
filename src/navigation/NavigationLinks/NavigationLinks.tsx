@@ -3,14 +3,16 @@ import NavigationLink from '../NavigationLink/NavigationLink';
 
 type Props = {
     menuOptions: string[];
+    onTabSelect: (page: string) => {};
 }
 
 const NavigationLinks = (props: Props) => {
     const [ selectedPage, setSelectedPage ] = useState('');
-    const { menuOptions } = props;
+    const { menuOptions, onTabSelect } = props;
 
-    function handlePageSelect(item: string) {
-        setSelectedPage(item);
+    function handlePageSelect(page: string) {
+        setSelectedPage(page);
+        onTabSelect(page);
     }
 
     return (

@@ -9,12 +9,12 @@ function App() {
   const [ page, setPage ] = useState('Home');
   return (
     <div className="App">
-      <Grid container >
-        <Grid item xs={3} >
-          <NavigatorBar />
+      <Grid container>
+        <Grid item xs={3} className="navigator" >
+          <NavigatorBar onTabSelect={setPage} />
         </Grid>
         <Grid item xs={9} className="app-pages">
-          <PageContainer page="Contact Me" />
+          <PageContainer page={page} />
         </Grid>
       </Grid>
     </div>

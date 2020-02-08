@@ -12,9 +12,8 @@ const ContactMe = () => {
 
     function handleSubmit() {
         if (checkFields()) {
-
+            // make api call
         }
-        // make api call
     }
 
     function checkFields() {
@@ -26,8 +25,6 @@ const ContactMe = () => {
             <Grid item>
                 <Title text="Contact Me!" />
             </Grid>
-            <br />
-            <br />
             <Grid item>
                 <Form label="Name" placeholder="Name" onChange={setName} />
                 <Form label="Email" placeholder="Email Address" onChange={setEmail} />

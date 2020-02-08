@@ -3,17 +3,23 @@ import Grid from '@material-ui/core/Grid';
 import Title from '../../components/Title/Title';
 import Subtitle from '../../components/Subtitle/Subtitle';
 import NavigationLinks from '../NavigationLinks/NavigationLinks';
+import './NavigationBar.css';
 
 const pageLinks = [
     'Home',
     'Resume',
-    'Skills',
-    'Projects',
+    'Projects and Skills',
     'Contact Me',
 ];
-const NavigationBar = () => {
+
+type Props = {
+    onTabSelect: (page: string) => {};
+}
+
+const NavigationBar = (props: Props) => {
+    const { onTabSelect } = props;
     return (
-        <Grid container>
+        <Grid container className="navigation-bar">
             <Grid item xs={2} />
             <Grid container item xs={10} direction="column" justify="space-evenly" spacing={10}>
                 <Grid item xs={1} />
@@ -23,7 +29,7 @@ const NavigationBar = () => {
                     <Subtitle text="Dedicated Software Engineer" />
                 </Grid>
                 <Grid item>
-                    <NavigationLinks menuOptions={pageLinks} />
+                    <NavigationLinks menuOptions={pageLinks} onTabSelect={onTabSelect} />
                 </Grid>
             </Grid>
         </Grid>

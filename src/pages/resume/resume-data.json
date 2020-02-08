@@ -21,7 +21,7 @@
     "certifications": {
         "awsCloud": {
             "name": "AWS Cloud Practicioner",
-            "desc": "Exam on Overall Knowledge of Cloud Principles and AWS Services",
+            "description": "Exam on Overall Knowledge of Cloud Principles and AWS Services",
             "date": "December 2019"
         }
     },
@@ -29,9 +29,8 @@
         "college": {
             "name": "University of Wisconsin - Madison",
             "degree": "Bachelor of Science - Computer Science",
-            "gpa": "3.4", 
-            "areasOfStudy": "Java, CS Theory, Algorithms, C languages"
-        }
-    },
 
+            "description": "Studied Java, CS Theory, Algorithms, C languages and maintained a 3.4 GPA"
+        }
+    }
 }

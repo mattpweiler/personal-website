@@ -1,0 +1,5 @@
+Proficient: Javascript, react, redux, -- include images
+
+Good: Java, any C language, Amazon Web Services
+
+make graphics for project architecture
