@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "./home.css";
-import background from '../../assets/images/mypic.jpg';
 import selfie from '../../assets/images/matt.png';
 
 /**

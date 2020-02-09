@@ -2,4 +2,4 @@ Proficient: Javascript, react, redux, -- include images
 
 Good: Java, any C language, Amazon Web Services
 
-make graphics for project architecture
+make graphics for project architecture for this website, then sasthesquatch, and then my academic project

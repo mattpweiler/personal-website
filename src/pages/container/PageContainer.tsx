@@ -3,6 +3,7 @@ import ContactMe from '../contact-me/contact-me';
 import Resume from '../resume/resume';
 import './PageContainer.css';
 import Home from '../home/home';
+import Projects from '../projects/projects';
 
 type Props = {
     page: string;
@@ -17,6 +18,9 @@ function renderPage(page: string) {
     }
     if(page === 'Home') {
         return <Home />
+    }
+    if(page === 'Projects and Skills') {
+        return <Projects />
     }
  }
 
