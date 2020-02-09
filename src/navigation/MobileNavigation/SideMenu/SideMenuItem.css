@@ -1,0 +1,11 @@
+.root-sidebar-item {
+    padding: 10px;
+    height: 25px;
+    border: 1px solid #404040;
+    z-index: 1000;
+}
+
+.root-sidebar-item:hover {
+    cursor: pointer;
+    background-color: #cfcfcf;
+}

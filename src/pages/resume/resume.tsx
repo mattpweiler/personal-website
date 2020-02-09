@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid/Grid';
 import Title from '../../components/Title/Title';
 import "./resume.css";
 import ResumeData from './resume-data.json';

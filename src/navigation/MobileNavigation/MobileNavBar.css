@@ -1,0 +1,25 @@
+.root-header-mobile {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    display: inline;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #404040;
+}
+
+.mobile-logo {
+    font-size: 30px;
+    color: black;
+    z-index: -1;
+    position: relative;
+    margin-top: -55px;
+    margin-right: 40%;
+    float: right;
+    padding-left: 20px;
+}
+
+.side-menu {
+    float: left;
+}
+

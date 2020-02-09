@@ -1,5 +1,5 @@
 .root-home {
-    height: 1000px;
+    height: 900px;
     margin-bottom: 80px;
 }
 
@@ -27,7 +27,7 @@
     }
     .background-title {
         font-size: 50px;
-        margin-top: -300px;
+        margin-top: -250px;
     }
     .title-home {
         margin-top: 300px;

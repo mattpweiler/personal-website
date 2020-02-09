@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid/Grid';
 import Title from '../../components/Title/Title';
 import Image from '../../components/Image/Image';
 import jsLogo from '../../assets/images/js-logo.png';
@@ -35,14 +35,14 @@ const Projects = () => {
                     <Image img={javaLogo} text="Java" />
                 </Grid>
                 <Grid item xs={2} >
-                    <Image img={awsLogo} text="AWS Serverless" />
+                    <Image img={awsLogo} text="AWS Serverless Architecture" />
                 </Grid>
             </Grid>
             <br />
             <br />
-            <Title text="Projects outside of Work/School" />
+            <Title text="Projects outside of the Office" />
             <Grid item container>
-                {/* project item */}
+                {/* Building This Website From Scratch Using React for Front end and AWS Serverless Architecture on Backend */}
             </Grid>
         </Grid>
     );

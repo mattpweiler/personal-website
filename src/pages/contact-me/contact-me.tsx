@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid/Grid';
 import "./contact-me.css";
 import Form from '../../components/Form/Form';
 import Button from '../../components/Button/Button';

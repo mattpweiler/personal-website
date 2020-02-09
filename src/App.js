@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid/Grid';
 import './App.css';
 import './components/Title/Title';
-import NavigatorBar from './navigation/NavigationBar/NavigationBar';
+import Navigator from './navigation/Navigator';
 import PageContainer from '../src/pages/container/PageContainer';
 
 function App() {
@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <Grid container>
-        <Grid item xs={3} className="navigator" >
-          <NavigatorBar onTabSelect={setPage} />
+        <Grid item xs={2} sm={3} className="navigator" >
+          <Navigator onTabSelect={setPage} />
         </Grid>
-        <Grid item xs={9} className="app-pages">
+        <Grid item xs={12} sm={9} className="app-pages">
           <PageContainer page={page} />
         </Grid>
       </Grid>
