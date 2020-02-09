@@ -12,11 +12,6 @@
     font-size: 30px;
     color: black;
     z-index: -1;
-    position: relative;
-    margin-top: -55px;
-    margin-right: 40%;
-    float: right;
-    padding-left: 20px;
 }
 
 .side-menu {

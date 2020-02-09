@@ -33,6 +33,12 @@ const ContactMe = () => {
             <Grid item xs={2}>
                 <Button text="Submit" onClick={handleSubmit} disabled={checkFields()} />
             </Grid>
+            <Grid item>
+                Email: mattweilerbusiness@gmail.com
+            </Grid>
+            <Grid item>
+                Phone: (414) 213-2302
+            </Grid>
         </Grid>
     );
 };

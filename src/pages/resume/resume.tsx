@@ -8,7 +8,7 @@ import ResumeEntry from '../../components/ResumeEntry/ResumeEntry';
 const Resume = () => {
 
     return (
-        <Grid container item className="contact-me" direction="column" justify="space-evenly" >
+        <Grid container item className="resume" direction="column" justify="space-evenly" >
             <Title text="Professional Experience" />
             <br />
             <ResumeEntry 

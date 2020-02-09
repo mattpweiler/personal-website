@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Grid container>
-        <Grid item xs={2} sm={3} className="navigator" >
+        <Grid item sm={3} className="navigator" >
           <Navigator onTabSelect={setPage} />
         </Grid>
         <Grid item xs={12} sm={9} className="app-pages">

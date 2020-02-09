@@ -3,11 +3,8 @@
     margin-bottom: 80px;
 }
 
-.image-div {
-    z-index: -1;
-}
-
 .title-home {
+    margin-top: 70px;
     font-size: 50px;
     margin-bottom: 40px;
 }
@@ -18,20 +15,13 @@
     margin-bottom: 40px;
 }
 @media only screen and (max-width: 800px) {
-    .image-selfie {
+    /* .image-selfie {
         width: 250px;
         height: 250px;
     }
-    .image-home {
-        height: 400px;
-    }
-    .background-title {
-        font-size: 50px;
-        margin-top: -250px;
-    }
     .title-home {
-        margin-top: 300px;
-    }
+        margin-top: 200px;
+    } */
 }
 
 .home-info {

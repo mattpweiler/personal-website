@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Grid from '@material-ui/core/Grid/Grid';
 import "./MobileNavBar.css";
 import BurgerMenu from './BurgerMenu/BurgerMenu';
 import SideMenu from './SideMenu/SideMenu';
@@ -28,11 +29,11 @@ const MobileNavBar = (props: Props) => {
 
   const menu = menuSelected ? <SideMenu onClose={handleStop} onChange={handleSelect} pageLinks={pageLinks} /> : null;
     return (
-      <div className="root-header-mobile">
-        <span> <BurgerMenu onClick={toggleMenu}/> </span>
-        <span className="mobile-logo"> {props.text} </span>
+      <Grid container className="root-header-mobile">
+        <Grid item xs={2}> <BurgerMenu onClick={toggleMenu}/> </Grid>
+        <Grid item xs={10} className="mobile-logo"> {props.text} </Grid>
         {menu}
-      </div>
+      </Grid>
     );
 }
 
