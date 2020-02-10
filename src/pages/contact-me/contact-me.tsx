@@ -15,9 +15,9 @@ const ContactMe = () => {
     const [showError, setShowError] = useState(false);
     const [showConfirm, setShowConfirm] = useState(false);
 
-    function handleSubmit() {
+    async function handleSubmit() {
         if (checkFields()) {
-            sendEmail(name, email, description);
+            await sendEmail(name, email, description);
             setShowError(false);
             setShowConfirm(true);
         } else {
@@ -31,11 +31,12 @@ const ContactMe = () => {
     }
 
     return (
-        <Grid container item className="contact-me" direction="column" justify="space-evenly" >
+        <Grid container item className="contact-me" direction="column" >
             <Grid item>
                 <Title text="Contact Me!" />
             </Grid>
             <Grid item>
+            <br />
             {showError && <ErrorBanner title="Submission Error" subtext="Please fill out entire form"/>}
             {showConfirm && <ConfirmBanner title="Thanks" subtext="I'll get back to you as soon as I can."/>}
                 <br />

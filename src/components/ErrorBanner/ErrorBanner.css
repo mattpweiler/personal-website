@@ -1,7 +1,7 @@
 .root-error {
     background-color: rgb(254, 137, 137);
     height: 40px;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 106, 106);
     padding: 10px;
 }
 

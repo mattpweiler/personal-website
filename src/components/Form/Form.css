@@ -5,6 +5,7 @@
 .form-input {
     height: 50px;
     border: 1px solid #cfcfcf;
+    font-size: 1rem;
 }
 .form-input::-webkit-input-placeholder{
     font-size: 1.25rem;
