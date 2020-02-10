@@ -1,7 +1,6 @@
 .sidebar-root {
     width: 140px;
     z-index: 10000;
-    margin-top: -15px;
     position: fixed;
 }
 

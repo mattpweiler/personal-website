@@ -1,0 +1,11 @@
+.root-confirm {
+    background-color: rgb(161, 251, 161);
+    height: 40px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.main-confirm {
+    font-weight: bold;
+    color: #404040;
+}

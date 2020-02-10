@@ -1,0 +1,11 @@
+.root-error {
+    background-color: rgb(254, 137, 137);
+    height: 40px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.main-error {
+    font-weight: bold;
+    color: #404040;
+}
