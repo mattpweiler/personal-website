@@ -7,6 +7,7 @@ import ResumeEntry from '../../components/ResumeEntry/ResumeEntry';
 
 const Resume = () => {
 
+    // volunteer experience - include more numebrs in other dexcriptinos
     return (
         <Grid container item className="resume" direction="column" justify="space-evenly" >
             <Title text="Professional Experience" />

@@ -17,7 +17,7 @@ const ContactMe = () => {
 
     async function handleSubmit() {
         if (checkFields()) {
-            await sendEmail(name, email, description);
+            // await sendEmail(name, email, description);
             setShowError(false);
             setShowConfirm(true);
         } else {
@@ -35,10 +35,12 @@ const ContactMe = () => {
             <Grid item>
                 <Title text="Contact Me!" />
             </Grid>
+            <br />
+            <ErrorBanner title="Error" subtext="Form is currently unavailable. Please send me an email: mattweilerbusiness@gmail.com"/>
             <Grid item>
             <br />
             {showError && <ErrorBanner title="Submission Error" subtext="Please fill out entire form"/>}
-            {showConfirm && <ConfirmBanner title="Thanks" subtext="I'll get back to you as soon as I can."/>}
+            {false && <ConfirmBanner title="Thanks" subtext="I'll get back to you as soon as I can."/>}
                 <br />
                 <Form label="Name" placeholder="Name" onChange={setName} />
                 <Form label="Email" placeholder="Email Address" onChange={setEmail} />
@@ -48,10 +50,13 @@ const ContactMe = () => {
                 <Button text="Submit" onClick={handleSubmit} />
             </Grid>
             <Grid item>
-                Email: mattweilerbusiness@gmail.com
+                EMAIL: mattweilerbusiness@gmail.com
             </Grid>
             <Grid item>
-                Phone: (414) 213-2302
+                GITHUB: https://github.com/mattpweiler/Personal-Website
+            </Grid>
+            <Grid item>
+                PHONE: (414) 213-2302
             </Grid>
         </Grid>
     );
