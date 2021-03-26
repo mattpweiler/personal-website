@@ -4,31 +4,31 @@ import "./contact-me.css";
 import Form from '../../components/Form/Form';
 import Button from '../../components/Button/Button';
 import Title from '../../components/Title/Title';
-import sendEmail from '../../services/contact-me/contact-me';
-import ErrorBanner from '../../components/ErrorBanner/ErrorBanner';
-import ConfirmBanner from '../../components/ConfirmBanner/ConfirmBanner';
+// import sendEmail from '../../services/contact-me/contact-me';
+// import ErrorBanner from '../../components/ErrorBanner/ErrorBanner';
+// import ConfirmBanner from '../../components/ConfirmBanner/ConfirmBanner';
 
 const ContactMe = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [description, setDescription] = useState('');
-    const [showError, setShowError] = useState(false);
-    const [showConfirm, setShowConfirm] = useState(false);
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [description, setDescription] = useState('');
+    // const [showError, setShowError] = useState(false);
+    // const [showConfirm, setShowConfirm] = useState(false);
 
-    async function handleSubmit() {
-        if (checkFields()) {
-            // await sendEmail(name, email, description);
-            setShowError(false);
-            setShowConfirm(true);
-        } else {
-            setShowError(true);
-            setShowConfirm(false);
-        }
-    }
+    // async function handleSubmit() {
+    //     if (checkFields()) {
+    //         // await sendEmail(name, email, description);
+    //         setShowError(false);
+    //         setShowConfirm(true);
+    //     } else {
+    //         setShowError(true);
+    //         setShowConfirm(false);
+    //     }
+    // }
 
-    function checkFields() {
-        return !!name && !!email && !!description;
-    }
+    // function checkFields() {
+    //     return !!name && !!email && !!description;
+    // }
 
     return (
         <Grid container item className="contact-me" direction="column" >
@@ -36,7 +36,7 @@ const ContactMe = () => {
                 <Title text="Contact Me!" />
             </Grid>
             <br />
-            <ErrorBanner title="Error" subtext="Form is currently unavailable. Please send me an email: mattweilerbusiness@gmail.com"/>
+            {/* <ErrorBanner title="Error" subtext="Form is currently unavailable. Please send me an email: mattweilerbusiness@gmail.com"/>
             <Grid item>
             <br />
             {showError && <ErrorBanner title="Submission Error" subtext="Please fill out entire form"/>}
@@ -48,15 +48,21 @@ const ContactMe = () => {
             </Grid>
             <Grid item xs={2}>
                 <Button text="Submit" onClick={handleSubmit} />
+            </Grid> */}
+            <Grid item>
+                EMAIL LOGO : mattweilerbusiness@gmail.com
             </Grid>
             <Grid item>
-                EMAIL: mattweilerbusiness@gmail.com
+                PHONE LOGO: (414) 213-2302
             </Grid>
             <Grid item>
-                GITHUB: https://github.com/mattpweiler/Personal-Website
+                GITHUB LOGO: https://github.com/mattpweiler/Personal-Website
             </Grid>
             <Grid item>
-                PHONE: (414) 213-2302
+                LinkedIn LOGO: https://www.linkedin.com/in/matthew-weiler-974795120/
+            </Grid>
+            <Grid item>
+                MEDIUM TODO
             </Grid>
         </Grid>
     );

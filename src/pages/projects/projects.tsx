@@ -68,7 +68,7 @@ const Projects = () => {
                 <div>
                     <h2> Educational Interest Portal  </h2>
                     I am currently working on research on the state of the current educational system,
-                   and am building an app to help people find the ideal type of education for them.
+                   and am building an app to help people find the ideal type of education for them. For the papers on this research, click here: http://www.natemyklebust.com/marbls.html
                 </div>
             </Grid>
         </Grid>
